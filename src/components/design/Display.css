@@ -1,0 +1,42 @@
+.imgTshirt{
+    position: relative;
+}
+.memeText {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    right: 0;
+}
+.memeText img{
+    max-width:300px ;
+    /*border:#fff solid 6px;*/
+}
+.memeText p{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin-top:10px;
+    font-size: 25px;
+}
+.tshirt-color{
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.tshirt-color img{
+    width: 15%;
+    height: 15%;
+}
+.upperText p {
+    text-transform: uppercase;
+}
+.lowerText p {
+    text-transform: lowercase;
+}
+
+.font-12{
+    font-size: 12px;
+}
+footer{
+    position: relative;
+    overflow:hidden;
+}
